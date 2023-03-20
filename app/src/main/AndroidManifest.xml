@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" >
-
+    <uses-sdk android:maxSdkVersion="26" android:targetSdkVersion="32"/>
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -16,7 +16,7 @@
             android:name=".MainActivity2"
             android:exported="false"
             android:label="@string/title_activity_main2"
-            android:theme="@style/Theme.MIREAMOB_4sem.NoActionBar" >
+            android:theme="@style/Theme.MIREAMOB_4sem" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
