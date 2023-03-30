@@ -1,35 +1,33 @@
 package com.example.mirea_mob_4sem
 
-import android.annotation.SuppressLint
-import android.content.Intent
-import android.os.Build
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
-import android.widget.TextView
+import android.widget.RelativeLayout
+import androidx.appcompat.app.AppCompatActivity
+
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var button: Button
-    private lateinit var editText: EditText
-    private lateinit var v_sdk: TextView
-
-
-    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB){
-            v_sdk = findViewById(R.id.text_sdk)
-            v_sdk.text = "Your version SDK is good"
-        }
-
-        button = findViewById(R.id.button)
-        editText = findViewById(R.id.inputText)
-        button.setOnClickListener{
-            val intent = Intent(this@MainActivity, MainActivity2::class.java)
-            intent.putExtra("text", editText.text.toString())
-            startActivity(intent)
-        }
+        val relativeLayout = RelativeLayout(this)
+        val editText = EditText(this)
+        editText.id = EditText.generateViewId()
+        val button = Button(this)
+        button.setText("Отправить")
+        val editTextParams = RelativeLayout.LayoutParams(
+            RelativeLayout.LayoutParams.MATCH_PARENT,
+            RelativeLayout.LayoutParams.WRAP_CONTENT
+        )
+        editTextParams.addRule(RelativeLayout.CENTER_IN_PARENT)
+        relativeLayout.addView(editText, editTextParams)
+        val buttonParams = RelativeLayout.LayoutParams(
+            RelativeLayout.LayoutParams.WRAP_CONTENT,
+            RelativeLayout.LayoutParams.WRAP_CONTENT
+        )
+        buttonParams.addRule(RelativeLayout.BELOW, editText.id)
+        buttonParams.addRule(RelativeLayout.ALIGN_RIGHT, editText.id)
+        relativeLayout.addView(button, buttonParams)
+        setContentView(relativeLayout)
     }
 }
