@@ -1,15 +1,15 @@
-package com.example.mirea_mob_4sem
+package com.example.mirea_mob_4sem.work4
 
 import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import androidx.appcompat.app.AppCompatActivity
+import com.example.mirea_mob_4sem.R
 
-
-class MainActivity : AppCompatActivity() {
+class Work4Main : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_work4_main)
     }
 
     fun transition(v : View){
@@ -18,5 +18,4 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, c)
         startActivity(intent)
     }
-
 }

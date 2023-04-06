@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools" >
 
     <application
         android:allowBackup="true"
@@ -11,10 +11,57 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MIREAMOB_4sem"
-        tools:targetApi="31">
+        tools:targetApi="31" >
+        <activity
+            android:name=".work4.Work44"
+            android:exported="false" />
+        <activity
+            android:name=".work4.Work43"
+            android:exported="false" />
+        <activity
+            android:name=".work4.Work42"
+            android:exported="false" />
+        <activity
+            android:name=".work4.Work41"
+            android:exported="false" />
+        <activity
+            android:name=".work4.Work4Main"
+            android:exported="false" />
+        <activity
+            android:name=".work3.Work37"
+            android:exported="false" />
+        <activity
+            android:name=".work3.Work36"
+            android:exported="false" />
+        <activity
+            android:name=".work3.Work35"
+            android:exported="false" />
+        <activity
+            android:name=".work3.Work34"
+            android:exported="false" />
+        <activity
+            android:name=".work3.Work33"
+            android:exported="false" />
+        <activity
+            android:name=".work3.Work32"
+            android:exported="false" />
+        <activity
+            android:name=".work3.Work31"
+            android:exported="false" />
+        <activity
+            android:name=".work3.Work3Main"
+            android:exported="false" />
+        <activity
+            android:name=".work2.Work2Second"
+            android:exported="false" />
+        <activity
+            android:name=".work2.Work2Main"
+            android:exported="false"
+            android:label="@string/title_activity_work2_main"
+            android:theme="@style/Theme.MIREAMOB_4sem.NoActionBar" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

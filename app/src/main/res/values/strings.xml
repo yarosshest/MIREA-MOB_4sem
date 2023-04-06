@@ -13,4 +13,12 @@
     <string name="input_suggestion">Enter your text</string>
     <string name="buttonText_view">Send</string>
     <string name="pause">Pause</string>
+    <string name="textViewMain">select num of work</string>
+    <string name="_2" translatable="false">2</string>
+    <string name="title_activity_work2_main" translatable="false">Work2Main</string>
+    <string name="textViewParts">select num of part</string>
+    <string name="_1" translatable="false">1</string>
+    <string name="hellow_word">Hellow Word</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
 </resources>
