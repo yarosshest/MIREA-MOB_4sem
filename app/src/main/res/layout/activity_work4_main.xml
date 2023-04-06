@@ -63,6 +63,143 @@
                 android:onClick="transition"
                 android:text="Программное создание LinearLayout"/>
 
+            <Button
+                android:id="@+id/button5"
+                android:tag="com.example.mirea_mob_4sem.work4.Work45"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Layout_gravity"/>
+
+            <Button
+                android:id="@+id/button6"
+                android:tag="com.example.mirea_mob_4sem.work4.Work46"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Программное создание Layout_gravity"/>
+
+            <Button
+                android:id="@+id/button7"
+                android:tag="com.example.mirea_mob_4sem.work4.Work47"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="RelativeLayout"/>
+
+            <Button
+                android:id="@+id/button8"
+                android:tag="com.example.mirea_mob_4sem.work4.Work48"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Позиционирование RelativeLayout"/>
+
+            <Button
+                android:id="@+id/button9"
+                android:tag="com.example.mirea_mob_4sem.work4.Work49"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Программное создание RelativeLayout"/>
+
+            <Button
+                android:id="@+id/button10"
+                android:tag="com.example.mirea_mob_4sem.work4.Work410"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="TableLayout"/>
+
+            <Button
+                android:id="@+id/button11"
+                android:tag="com.example.mirea_mob_4sem.work4.Work411"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="TableRow"/>
+
+            <Button
+                android:id="@+id/button12"
+                android:tag="com.example.mirea_mob_4sem.work4.Work412"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Программное создание TableLayout"/>
+
+            <Button
+                android:id="@+id/button13"
+                android:tag="com.example.mirea_mob_4sem.work4.Work413"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="FrameLayout"/>
+
+            <Button
+                android:id="@+id/button14"
+                android:tag="com.example.mirea_mob_4sem.work4.Work414"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Gravity в FrameLayout в Android"/>
+
+            <Button
+                android:id="@+id/button15"
+                android:tag="com.example.mirea_mob_4sem.work4.Work415"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="FrameLayout в коде"/>
+
+            <Button
+                android:id="@+id/button16"
+                android:tag="com.example.mirea_mob_4sem.work4.Work416"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="GridLayout"/>
+
+            <Button
+                android:id="@+id/button17"
+                android:tag="com.example.mirea_mob_4sem.work4.Work417"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Растяжение строк и столбцов в GridLayout в Android"/>
+
+            <Button
+                android:id="@+id/button18"
+                android:tag="com.example.mirea_mob_4sem.work4.Work418"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Программное создание GridLayout"/>
+
+            <Button
+                android:id="@+id/button19"
+                android:tag="com.example.mirea_mob_4sem.work4.work419"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="ScrollView"/>
+
+            <Button
+                android:id="@+id/button20"
+                android:tag="com.example.mirea_mob_4sem.work4.work420"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Программное создание ScrollView"/>
+
+<!--            <Button-->
+<!--                android:id="@+id/button20"-->
+<!--                android:tag="com.example.mirea_mob_4sem.work420"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:onClick="transition"-->
+<!--                android:text="Программное создание ScrollView"/>-->
+
+
         </LinearLayout>
 
 

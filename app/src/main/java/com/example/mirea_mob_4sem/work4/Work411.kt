@@ -4,9 +4,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.mirea_mob_4sem.R
 
-class Work42 : AppCompatActivity() {
+class Work411 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_work42)
+        setContentView(R.layout.activity_work411)
     }
 }
