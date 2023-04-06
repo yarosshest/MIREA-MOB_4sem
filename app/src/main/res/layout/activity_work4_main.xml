@@ -199,6 +199,22 @@
                 android:onClick="transition"
                 android:text="Вложенные layout"/>
 
+            <Button
+                android:id="@+id/button22"
+                android:tag="com.example.mirea_mob_4sem.work4.Work422"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Gravity"/>
+
+            <Button
+                android:id="@+id/button23"
+                android:tag="com.example.mirea_mob_4sem.work4.Work423"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Программная установка layout\_gravity в Android"/>
+
 
         </LinearLayout>
 
