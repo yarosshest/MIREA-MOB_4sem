@@ -177,7 +177,7 @@
 
             <Button
                 android:id="@+id/button19"
-                android:tag="com.example.mirea_mob_4sem.work4.work419"
+                android:tag="com.example.mirea_mob_4sem.work4.Work419"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:onClick="transition"
@@ -185,19 +185,19 @@
 
             <Button
                 android:id="@+id/button20"
-                android:tag="com.example.mirea_mob_4sem.work4.work420"
+                android:tag="com.example.mirea_mob_4sem.work4.Work420"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:onClick="transition"
                 android:text="Программное создание ScrollView"/>
 
-<!--            <Button-->
-<!--                android:id="@+id/button20"-->
-<!--                android:tag="com.example.mirea_mob_4sem.work420"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="match_parent"-->
-<!--                android:onClick="transition"-->
-<!--                android:text="Программное создание ScrollView"/>-->
+            <Button
+                android:id="@+id/button21"
+                android:tag="com.example.mirea_mob_4sem.work4.Work421"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Вложенные layout"/>
 
 
         </LinearLayout>

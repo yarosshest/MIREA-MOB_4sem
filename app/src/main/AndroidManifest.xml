@@ -13,6 +13,9 @@
         android:theme="@style/Theme.MIREAMOB_4sem"
         tools:targetApi="31">
         <activity
+            android:name=".work4.Work421"
+            android:exported="false" />
+        <activity
             android:name=".work4.Work420"
             android:exported="false" />
         <activity
