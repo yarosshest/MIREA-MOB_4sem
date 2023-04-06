@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
         android:gravity="center"
-        android:text="@string/textViewMain"
+        android:text="@string/textViewParts"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -32,28 +32,39 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/button2"
-                android:tag="com.example.mirea_mob_4sem.work2.Work2Main"
+                android:id="@+id/button1"
+                android:tag="com.example.mirea_mob_4sem.work4.Work41"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:onClick="transition"
-                android:text="@string/_2"/>
+                android:text="LinearLayout"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:tag="com.example.mirea_mob_4sem.work4.Work42"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Вес элемента"/>
 
             <Button
                 android:id="@+id/button3"
-                android:tag="com.example.mirea_mob_4sem.work3.Work3Main"
+                android:tag="com.example.mirea_mob_4sem.work4.Work43"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:onClick="transition"
-                android:text="@string/_3"/>
+                android:text="WeightSum"/>
 
             <Button
                 android:id="@+id/button4"
-                android:tag="com.example.mirea_mob_4sem.work4.Work4Main"
+                android:tag="com.example.mirea_mob_4sem.work4.Work44"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:onClick="transition"
-                android:text="@string/_4"/>
+                android:text="Программное создание LinearLayout"/>
+
         </LinearLayout>
+
+
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

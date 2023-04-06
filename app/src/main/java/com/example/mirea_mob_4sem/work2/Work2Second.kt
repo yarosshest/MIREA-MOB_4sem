@@ -1,26 +1,22 @@
-package com.example.mirea_mob_4sem
+package com.example.mirea_mob_4sem.work2
 
-import android.annotation.SuppressLint
-import android.content.Intent
 import android.hardware.camera2.CameraDevice
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.PersistableBundle
-import android.view.View
-import android.widget.Button
 import android.widget.TextView
+import com.example.mirea_mob_4sem.R
 
-class MainActivity2 : AppCompatActivity() {
+class Work2Second : AppCompatActivity() {
     private lateinit var textView: TextView
     private lateinit var textPrev: TextView
     private lateinit var mCamera: CameraDevice
     private lateinit var msg: String
     private lateinit var previous: String
 
-    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main2)
+        setContentView(R.layout.activity_work2_second)
 
         if(savedInstanceState != null){
             textPrev = findViewById(R.id.previous)
@@ -36,7 +32,7 @@ class MainActivity2 : AppCompatActivity() {
     override fun onPause() {
         super.onPause()
         textView = findViewById(R.id.textView2)
-        textView.text = R.string.pause.toString()
+        textView.text = getString(R.string.pause)
 //        mCamera.close()
     }
     fun initCamera(){
@@ -51,7 +47,7 @@ class MainActivity2 : AppCompatActivity() {
 
     override fun onStop() {
         super.onStop()
-        msg = findViewById<View?>(R.id.textView2).toString()
+        msg = findViewById<TextView?>(R.id.textView2).text.toString()
     }
 
     override fun onRestoreInstanceState(
