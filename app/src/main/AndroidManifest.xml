@@ -13,6 +13,30 @@
         android:theme="@style/Theme.MIREAMOB_4sem"
         tools:targetApi="31">
         <activity
+            android:name=".work5.Work57"
+            android:exported="false" />
+        <activity
+            android:name=".work5.Work56"
+            android:exported="false" />
+        <activity
+            android:name=".work5.Work55"
+            android:exported="false" />
+        <activity
+            android:name=".work5.Work54"
+            android:exported="false" />
+        <activity
+            android:name=".work5.Work53"
+            android:exported="false" />
+        <activity
+            android:name=".work5.Work52"
+            android:exported="false" />
+        <activity
+            android:name=".work5.Work5Main"
+            android:exported="false" />
+        <activity
+            android:name=".work5.Work51"
+            android:exported="false" />
+        <activity
             android:name=".work4.Work423"
             android:exported="false" />
         <activity

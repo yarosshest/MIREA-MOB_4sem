@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
         android:gravity="center"
-        android:text="@string/textViewMain"
+        android:text="@string/textViewParts"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -32,36 +32,62 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/button2"
-                android:tag="com.example.mirea_mob_4sem.work2.Work2Main"
+                android:id="@+id/button1"
+                android:tag="com.example.mirea_mob_4sem.work5.Work51"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:onClick="transition"
-                android:text="@string/_2"/>
+                android:text="TextView"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:tag="com.example.mirea_mob_4sem.work5.Work52"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="EditText"/>
 
             <Button
                 android:id="@+id/button3"
-                android:tag="com.example.mirea_mob_4sem.work3.Work3Main"
+                android:tag="com.example.mirea_mob_4sem.work5.Work53"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:onClick="transition"
-                android:text="@string/_3"/>
+                android:text="Button"/>
 
             <Button
                 android:id="@+id/button4"
-                android:tag="com.example.mirea_mob_4sem.work4.Work4Main"
+                android:tag="com.example.mirea_mob_4sem.work5.Work54"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:onClick="transition"
-                android:text="@string/_4"/>
+                android:text="Button in code"/>
 
             <Button
                 android:id="@+id/button5"
-                android:tag="com.example.mirea_mob_4sem.work5.Work5Main"
+                android:tag="com.example.mirea_mob_4sem.work5.Work55"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:onClick="transition"
-                android:text="@string/_5"/>
+                android:text="Toast"/>
+
+            <Button
+                android:id="@+id/button6"
+                android:tag="com.example.mirea_mob_4sem.work5.Work56"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Snackbar"/>
+
+            <Button
+                android:id="@+id/button7"
+                android:tag="com.example.mirea_mob_4sem.work5.Work57"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Snackbar setAction"/>
         </LinearLayout>
+
+
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

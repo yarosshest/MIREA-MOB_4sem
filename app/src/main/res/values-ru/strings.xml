@@ -15,4 +15,5 @@
     <string name="pause">Пауза</string>
     <string name="textViewMain">Выберите номер работы</string>
     <string name="textViewParts" >выберите номер части</string>
+    <string name="Work5_1_textView">Где МИРЭА</string>
 </resources>

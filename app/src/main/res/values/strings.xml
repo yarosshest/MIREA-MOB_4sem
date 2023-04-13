@@ -18,7 +18,9 @@
     <string name="title_activity_work2_main" translatable="false">Work2Main</string>
     <string name="textViewParts">select num of part</string>
     <string name="_1" translatable="false">1</string>
-    <string name="hellow_word">Hellow Word</string>
-    <string name="_3">3</string>
-    <string name="_4">4</string>
+    <string name="hellow_word" translatable="false">Hellow Word</string>
+    <string name="_3" translatable="false">3</string>
+    <string name="_4" translatable="false">4</string>
+    <string name="_5" translatable="false">5</string>
+    <string name="Work5_1_textView">were is mirea</string>
 </resources>
