@@ -20,11 +20,11 @@ class Work421 : AppCompatActivity() {
         val minusButton: Button = minusButtonView.findViewById(R.id.clickBtn)
         plusButton.setText("+")
         minusButton.setText("-")
-        plusButton.setOnClickListener { v ->
+        plusButton.setOnClickListener { _ ->
             clicks++
             clicksText.text = "$clicks Clicks"
         }
-        minusButton.setOnClickListener { v ->
+        minusButton.setOnClickListener { _ ->
             clicks--
             clicksText.text = "$clicks Clicks"
         }
