@@ -126,6 +126,30 @@
                 android:layout_height="match_parent"
                 android:onClick="transition"
                 android:text="RadioGroup"/>
+
+            <Button
+                android:id="@+id/button13"
+                android:tag="com.example.mirea_mob_4sem.work5.Work513"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="datePicker"/>
+
+            <Button
+                android:id="@+id/button14"
+                android:tag="com.example.mirea_mob_4sem.work5.Work514"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="timePicker"/>
+
+            <Button
+                android:id="@+id/button15"
+                android:tag="com.example.mirea_mob_4sem.work5.Work515"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="seekBar"/>
         </LinearLayout>
 
 
