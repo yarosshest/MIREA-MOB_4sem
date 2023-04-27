@@ -23,4 +23,18 @@
     <string name="_4" translatable="false">4</string>
     <string name="_5" translatable="false">5</string>
     <string name="Work5_1_textView">were is mirea</string>
+    <string name="text61" translatable="false">text from resource</string>
+    <string name="text62" translatable="false">hello from %1$s </string>
+
+    <plurals name="flowers" translatable="false">
+        <item quantity="one">%d цветок</item>
+        <item quantity="few">%d цветка</item>
+        <item quantity="many">%d цветков</item>
+    </plurals>
+
+    <string-array name="languages">
+        <item>Java</item>
+        <item>Kotlin</item>
+        <item>Dart</item>
+    </string-array>
 </resources>
