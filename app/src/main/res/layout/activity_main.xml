@@ -70,6 +70,14 @@
                 android:layout_height="match_parent"
                 android:onClick="transition"
                 android:text="6"/>
+
+            <Button
+                android:id="@+id/button7"
+                android:tag="com.example.mirea_mob_4sem.work7.Work7Main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="7"/>
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
