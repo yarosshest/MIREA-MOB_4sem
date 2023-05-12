@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".work8.Work8Main">
 
     <TextView
         android:id="@+id/textViewMain"
@@ -10,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
         android:gravity="center"
-        android:text="@string/textViewMain"
+        android:text="@string/textViewParts"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -32,60 +34,39 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/button2"
-                android:tag="com.example.mirea_mob_4sem.work2.Work2Main"
+                android:id="@+id/button1"
+                android:tag="com.example.mirea_mob_4sem.work8.Work81"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:onClick="transition"
-                android:text="@string/_2"/>
+                android:text="Добавление фрагмента в Activity"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:tag="com.example.mirea_mob_4sem.work8.Work82"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Добавление фрагмента в коде"/>
 
             <Button
                 android:id="@+id/button3"
-                android:tag="com.example.mirea_mob_4sem.work3.Work3Main"
+                android:tag="com.example.mirea_mob_4sem.work8.Work83"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:onClick="transition"
-                android:text="@string/_3"/>
+                android:text="Взаимодействие между фрагментами"/>
 
             <Button
                 android:id="@+id/button4"
-                android:tag="com.example.mirea_mob_4sem.work4.Work4Main"
+                android:tag="com.example.mirea_mob_4sem.work8.Work84"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:onClick="transition"
-                android:text="@string/_4"/>
+                android:text="Фрагменты в альбомном и портретном режиме"/>
 
-            <Button
-                android:id="@+id/button5"
-                android:tag="com.example.mirea_mob_4sem.work5.Work5Main"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:onClick="transition"
-                android:text="@string/_5"/>
 
-            <Button
-                android:id="@+id/button6"
-                android:tag="com.example.mirea_mob_4sem.work6.Work6Main"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:onClick="transition"
-                android:text="6"/>
-
-            <Button
-                android:id="@+id/button7"
-                android:tag="com.example.mirea_mob_4sem.work7.Work7Main"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:onClick="transition"
-                android:text="7"/>
-
-            <Button
-                android:id="@+id/button8"
-                android:tag="com.example.mirea_mob_4sem.work8.Work8Main"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:onClick="transition"
-                android:text="8"/>
         </LinearLayout>
     </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

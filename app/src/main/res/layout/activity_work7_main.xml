@@ -41,6 +41,38 @@
                 android:onClick="transition"
                 android:text="Передача данных между Activity"/>
 
+            <Button
+                android:id="@+id/button2"
+                android:tag="com.example.mirea_mob_4sem.work7.Work73"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Передача сложных объектов между Activity"/>
+
+            <Button
+                android:id="@+id/button3"
+                android:tag="com.example.mirea_mob_4sem.work7.Work75"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Передача Parcelable между Activity"/>
+
+            <Button
+                android:id="@+id/button4"
+                android:tag="com.example.mirea_mob_4sem.work7.Work77"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Получение результата из Activity"/>
+
+            <Button
+                android:id="@+id/button5"
+                android:tag="com.example.mirea_mob_4sem.work7.Work79"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Управление стеком activity"/>
+
         </LinearLayout>
     </ScrollView>
 

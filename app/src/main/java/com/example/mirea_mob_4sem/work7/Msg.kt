@@ -4,12 +4,8 @@ import java.io.Serializable
 import java.time.LocalDateTime
 
 
-class Msg : Serializable {
-    var value: Int? = null
-    var time: LocalDateTime? = null
+class Msg(value: Int, time: LocalDateTime) : Serializable {
+    var value: Int? = value
+    var time: LocalDateTime? = time
 
-    constructor(value: Int, time: LocalDateTime) {
-        this.value = value
-        this.time = time
-    }
 }
