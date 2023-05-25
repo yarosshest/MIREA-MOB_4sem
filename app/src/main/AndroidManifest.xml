@@ -13,6 +13,21 @@
         android:theme="@style/Theme.MIREAMOB_4sem"
         tools:targetApi="31">
         <activity
+            android:name=".work9.Work94"
+            android:exported="false" />
+        <activity
+            android:name=".work9.Work93"
+            android:exported="false" />
+        <activity
+            android:name=".work9.Work92"
+            android:exported="false" />
+        <activity
+            android:name=".work9.Work91"
+            android:exported="false" />
+        <activity
+            android:name=".work9.Work9Main"
+            android:exported="false" />
+        <activity
             android:name=".work8.Work84DetailActivity"
             android:exported="false" />
         <activity
