@@ -57,6 +57,95 @@
                 android:onClick="transition"
                 android:text="Множественный выбор в списке"/>
 
+            <Button
+                android:id="@+id/button4"
+                android:tag="com.example.mirea_mob_4sem.work9.Work94"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Реализовать добавление и удаление в ArrayAdapter и ListView"/>
+
+            <Button
+                android:id="@+id/button5"
+                android:tag="com.example.mirea_mob_4sem.work9.Work95"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Реализовать расширение списков и создание адаптера"/>
+
+            <Button
+                android:id="@+id/button6"
+                android:tag="com.example.mirea_mob_4sem.work9.Work96"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Реализовать оптимизацию адаптера и применение View Holder"/>
+
+            <Button
+                android:id="@+id/button7"
+                android:tag="com.example.mirea_mob_4sem.work9.Work97"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Реализовать сложный список с кнопками"/>
+
+            <Button
+                android:id="@+id/button8"
+                android:tag="com.example.mirea_mob_4sem.work9.Work98"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Реализовать выпадающий список Spinner"/>
+
+            <Button
+                android:id="@+id/button9"
+                android:tag="com.example.mirea_mob_4sem.work9.Work99"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Реализовать обработку выбора элемента используя слушатель
+OnItemSelectedListener"/>
+
+            <Button
+                android:id="@+id/button10"
+                android:tag="com.example.mirea_mob_4sem.work9.Work910"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Реализовать виджет автодополнения AutoCompleteTextView"/>
+
+            <Button
+                android:id="@+id/button11"
+                android:tag="com.example.mirea_mob_4sem.work9.Work911"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Реализовать виджет MultiAutoCompleteTextView"/>
+
+            <Button
+                android:id="@+id/button12"
+                android:tag="com.example.mirea_mob_4sem.work9.Work912"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Реализовать пример с элементом GridView"/>
+
+            <Button
+                android:id="@+id/button13"
+                android:tag="com.example.mirea_mob_4sem.work9.Work913"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Реализовать пример с элементом RecyclerView"/>
+
+            <Button
+                android:id="@+id/button14"
+                android:tag="com.example.mirea_mob_4sem.work9.Work914"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Реализовать обработку выбора элемента в RecyclerView"/>
+
 
         </LinearLayout>
     </ScrollView>

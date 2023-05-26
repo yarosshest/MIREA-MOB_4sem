@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
+
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -12,6 +13,48 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MIREAMOB_4sem"
         tools:targetApi="31">
+        <activity
+            android:name=".work11.Work113"
+            android:exported="false" />
+        <activity
+            android:name=".work11.Work112"
+            android:exported="false" />
+        <activity
+            android:name=".work11.Work111"
+            android:exported="false" />
+        <activity
+            android:name=".work11.Work11Main"
+            android:exported="false" />
+        <activity
+            android:name=".work9.Work914"
+            android:exported="false" />
+        <activity
+            android:name=".work9.Work913"
+            android:exported="false" />
+        <activity
+            android:name=".work9.Work912"
+            android:exported="false" />
+        <activity
+            android:name=".work9.Work911"
+            android:exported="false" />
+        <activity
+            android:name=".work9.Work910"
+            android:exported="false" />
+        <activity
+            android:name=".work9.Work99"
+            android:exported="false" />
+        <activity
+            android:name=".work9.Work98"
+            android:exported="false" />
+        <activity
+            android:name=".work9.Work97"
+            android:exported="false" />
+        <activity
+            android:name=".work9.Work96"
+            android:exported="false" />
+        <activity
+            android:name=".work9.Work95"
+            android:exported="false" />
         <activity
             android:name=".work9.Work94"
             android:exported="false" />

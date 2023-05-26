@@ -14,7 +14,7 @@ import java.util.Collections
 
 class Work94 : AppCompatActivity() {
 
-    var users = ArrayList<String>()
+    private var users = ArrayList<String>()
     var selectedUsers = ArrayList<String>()
     var adapter: ArrayAdapter<String>? = null
     var usersList: ListView? = null
@@ -23,18 +23,18 @@ class Work94 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_work94)
 
-        Collections.addAll<String>(users, "Tom", "Bob", "Sam", "Alice")
+        Collections.addAll(users, "Tom", "Bob", "Sam", "Alice")
 
         usersList = findViewById<View>(R.id.usersList) as ListView?
 
-        adapter = ArrayAdapter<Any?>(this, android.R.layout.simple_list_item_multiple_choice, users).toString()
+        adapter = ArrayAdapter<String>(this, android.R.layout.simple_list_item_multiple_choice, users)
 
 
         usersList?.adapter = adapter
 
-        usersList?.onItemClickListener = OnItemClickListener { parent, v, position, id ->
-            val user: String = adapter.getItem(position)
-            if (usersList.isItemChecked(position)) selectedUsers.add(user) else selectedUsers.remove(
+        usersList?.onItemClickListener = OnItemClickListener { _, _, position, _ ->
+            val user: String? = adapter!!.getItem(position)
+            if (usersList?.isItemChecked(position) == true) user?.let { selectedUsers.add(it) } else selectedUsers.remove(
                 user
             )
         }
@@ -43,22 +43,22 @@ class Work94 : AppCompatActivity() {
     fun add(view: View?) {
         val userName = findViewById<EditText>(R.id.userName)
         val user = userName.text.toString()
-        if (!user.isEmpty()) {
-            adapter.add(user)
+        if (user.isNotEmpty()) {
+            adapter?.add(user)
             userName.setText("")
-            adapter.notifyDataSetChanged()
+            adapter?.notifyDataSetChanged()
         }
     }
 
     fun remove(view: View?) {
         // получаем и удаляем выделенные элементы
-        for (i in 0 until selectedUsers.size()) {
-            adapter.remove(selectedUsers.get(i))
+        for (i in 0 until selectedUsers.size) {
+            adapter?.remove(selectedUsers[i])
         }
         // снимаем все ранее установленные отметки
-        usersList.clearChoices()
+        usersList?.clearChoices()
         // очищаем массив выбраных объектов
         selectedUsers.clear()
-        adapter.notifyDataSetChanged()
+        adapter?.notifyDataSetChanged()
     }
 }

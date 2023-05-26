@@ -94,6 +94,15 @@
                 android:layout_height="match_parent"
                 android:onClick="transition"
                 android:text="9"/>
+
+
+            <Button
+                android:id="@+id/button11"
+                android:tag="com.example.mirea_mob_4sem.work11.Work11Main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="11"/>
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
