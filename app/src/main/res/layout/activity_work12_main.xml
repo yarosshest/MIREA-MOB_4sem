@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:text="@string/textViewParts"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMain"
+        app:layout_constraintVertical_bias="0.367">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button1"
+                android:tag="com.example.mirea_mob_4sem.work12.Work121"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Воспроизведение видео из интернета"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:tag="com.example.mirea_mob_4sem.work12.Work122"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Работа с аудио материалами"/>
+
+            <Button
+                android:id="@+id/button3"
+                android:tag="com.example.mirea_mob_4sem.work12.Work123"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Cell animation"/>
+
+            <Button
+                android:id="@+id/button4"
+                android:tag="com.example.mirea_mob_4sem.work12.Work124"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Tween-анимация"/>
+
+            <Button
+                android:id="@+id/button5"
+                android:tag="com.example.mirea_mob_4sem.work12.Work125"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Service"/>
+
+            <Button
+                android:id="@+id/button6"
+                android:tag="com.example.mirea_mob_4sem.work12.Work126"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="DatePickerDialog и TimePickerDialog"/>
+
+            <Button
+                android:id="@+id/button7"
+                android:tag="com.example.mirea_mob_4sem.work12.Work127"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="DialogFragment "/>
+
+            <Button
+                android:id="@+id/button8"
+                android:tag="com.example.mirea_mob_4sem.work12.Work128"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Передача данных в диалоговое окно"/>
+
+            <Button
+                android:id="@+id/button9"
+                android:tag="com.example.mirea_mob_4sem.work12.Work129"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="transition"
+                android:text="Взаимодействие с Activity"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

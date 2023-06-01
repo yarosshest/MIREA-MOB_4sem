@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <application
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -13,6 +14,42 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MIREAMOB_4sem"
         tools:targetApi="31">
+        <activity
+            android:name=".work12.Work129"
+            android:exported="false" />
+        <activity
+            android:name=".work12.Work128"
+            android:exported="false" />
+        <activity
+            android:name=".work12.Work127"
+            android:exported="false" />
+        <activity
+            android:name=".work12.Work126"
+            android:exported="false" />
+
+        <service
+            android:name=".work12.MediaService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".work12.Work125"
+            android:exported="false" />
+        <activity
+            android:name=".work12.Work124"
+            android:exported="false" />
+        <activity
+            android:name=".work12.Work123"
+            android:exported="false" />
+        <activity
+            android:name=".work12.Work122"
+            android:exported="false" />
+        <activity
+            android:name=".work12.Work12Main"
+            android:exported="false" />
+        <activity
+            android:name=".work12.Work121"
+            android:exported="false" />
         <activity
             android:name=".work11.Work113"
             android:exported="false" />
