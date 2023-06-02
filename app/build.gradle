@@ -45,6 +45,7 @@ dependencies {
             because("kotlin-stdlib-jdk8 is now a part of kotlin-stdlib")
         }
     }
+    implementation "androidx.preference:preference:1.2.0"
     implementation("com.google.android.material:material:1.9.0")
     implementation 'androidx.core:core-ktx:1.10.1'
     implementation 'androidx.appcompat:appcompat:1.6.1'

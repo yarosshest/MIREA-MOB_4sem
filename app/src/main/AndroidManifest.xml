@@ -15,6 +15,54 @@
         android:theme="@style/Theme.MIREAMOB_4sem"
         tools:targetApi="31">
         <activity
+            android:name=".work13.UserActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".work13.Work1311"
+            android:exported="false" />
+        <activity
+            android:name=".work13.Work1310"
+            android:exported="false" />
+        <activity
+            android:name=".work13.UserActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".work13.Work139"
+            android:exported="false" />
+        <activity
+            android:name=".work13.UserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".work13.Work138"
+            android:exported="false" />
+        <activity
+            android:name=".work13.Work137"
+            android:exported="false" />
+        <activity
+            android:name=".work13.Work136"
+            android:exported="false" />
+        <activity
+            android:name=".work13.Work135"
+            android:exported="false" />
+        <activity
+            android:name=".work13.Work134"
+            android:exported="false" />
+        <activity
+            android:name=".work13.SettingsActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".work13.Work133"
+            android:exported="false" />
+        <activity
+            android:name=".work13.Work132"
+            android:exported="false" />
+        <activity
+            android:name=".work13.Work13Main"
+            android:exported="false" />
+        <activity
+            android:name=".work13.Work131"
+            android:exported="false" />
+        <activity
             android:name=".work12.Work129"
             android:exported="false" />
         <activity
